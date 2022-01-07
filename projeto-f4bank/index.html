@@ -11,45 +11,52 @@
 </head>
 <body>
     <header>
-        <div class="logo-texto">
-            <img src="./imagens/f4bank.png" alt="logo-f4bank">
+        <div class="icone-texto">
+            <img class="icone" src="./imagens/f4bank.png" alt="logo-f4bank">
             <nav id="menu-inicial">
-                <h3>Página inicial</h3>
-                <h3>Pra você</h3>
-                <h3>O F4Bank</h3>
-                <h3>Perguntas</h3>
-                <h3>Contato</h3>
+                <a href="index.html"><h3>Página inicial </h3></a>
+                <a href="#produtos"><h3> Pra você </h3></a>
+                <a href=""><h3> O F4Bank </h3></a>
+                <a href=""><h3> Perguntas </h3></a>
+                <a href="#final"><h3> Contato</h3></a>
             </nav>
         </div>
-        <button>Abra sua conta</button>
+        <button id="abrir-conta">Abra sua conta</button>
     </header>  
     <main>
         <div id="produtos">
-            <div id="conta-digital">
-                <p>Conta Digital</p>
-                <p>Gratuita e acessível do computador, smartphone ou tablet. Do jeito que você precisar.</p>
+            <div class="padrao-produto" id="conta-digital">
+                <div class="titulo-descricao">
+                    <p class="titulo">Conta Digital</p>
+                    <p class="descricao">Gratuita e acessível do computador, smartphone ou tablet. Do jeito que você precisar.</p>
+                </div>
                 <img src="./imagens/desktop-mobile.png" alt="computador-celular-tablet">
             </div>
-            <div id="cartoes-f4bank">
-                <p>Cartões de Crédito e Débito</p>
-                <p>Sem anuidade e sem tarifas! Moderno e prático, com sensor de proximidade.</p>
+            <div class="padrao-produto" id="cartoes-f4bank">
+                <div class="titulo-descricao">
+                    <p class="titulo">Cartões de Crédito e Débito</p>
+                    <p>Sem anuidade e sem tarifas! Moderno e prático, com sensor de proximidade.</p>
+                </div>
                 <img src="./imagens/cartoes.png" alt="cartao-de-credito">
             </div>
-            <div id="emprestimos">
-                <p>Empréstimos</p>
-                <p>Crédito pessoal e para seu negócio. Simulação fácil e com taxas que cabem no seu bolso. Solicite de casa e receba seu dinheiro na conta.</p>
-                <!-- <img src="./imagens/pessoas-sorrindo.png" alt="pessoas-sorrindo-no-computador"> Vou colocar essa imagem como background-->
+            <div class="padrao-produto" id="emprestimos">
+                <div class="titulo-descricao">
+                    <p class="titulo">Empréstimos</p>
+                    <p>Crédito pessoal e para seu negócio. Simulação fácil e com taxas que cabem no seu bolso. Solicite de casa e receba seu dinheiro na conta.</p>
+                </div>
             </div>
-            <div id="investimentos">
-                <p>Investimentos</p>
-                <p>Invista da sua maneira! Com opções de investimentos seguros e exclusivos.</p>
+            <div class="padrao-produto" id="investimentos">
+                <div class="titulo-descricao">
+                    <p class="titulo">Investimentos</p>
+                    <p>Invista da sua maneira! Com opções de investimentos seguros e exclusivos.</p>
+                </div>
                 <img src="./imagens/grafico.png" alt="grafico-investimento">
             </div>
         </div>
 
     </main>
   
-    <footer>
+    <footer id="final">
         <a target="_blank" href="##">Link</a>
     </footer>
 
