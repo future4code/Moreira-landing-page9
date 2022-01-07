@@ -1,0 +1,68 @@
+/* Configurações gerais */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Configurações da header */
+header{
+    background-color: #FF914D;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.icone-texto{
+    display: flex;
+    align-items: center;
+}
+.icone{
+    height: 60px;
+    width: 80px;
+}
+
+#menu-inicial{
+    display: flex;
+    
+}
+#menu-inicial a{
+    padding-right: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Configurações da main */
+
+.padrao-produto{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+}
+#conta-digital{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+}
+
+#produtos img{
+    max-width: 400px;
+    padding: 15px;
+}
+
+.titulo-descricao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    color: #FF914D;
+    font-size: xx-large;
+    font-weight: bold;
+}
+#emprestimos{
+    background-image: url("./imagens/pessoas-sorrindo.png");
+    height: 550px;
+}
