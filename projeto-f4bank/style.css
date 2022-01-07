@@ -1,8 +1,9 @@
 /* Configurações gerais */
-*{
+*{  
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Configurações da header */
@@ -172,3 +173,55 @@ header{
 }
 
 /* Configurações do Footer */
+ul h3{color: white;
+    font-size: 20x;
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    }
+    
+    li  {
+        list-style-type: none;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    li a:hover{
+        color: #ff914d
+    
+    }
+    li a {
+        
+        color: white;
+        text-decoration: none;
+        
+        
+    }
+    
+    footer{
+        width: 100vw;
+        background-color:#111;
+        display: flex;
+        justify-content: space-between;
+         flex-wrap: wrap;
+        
+        
+    }
+    .container {
+        padding-right: 200px;
+        display: flex;
+        
+    }
+    .container img:hover{
+        opacity: .5;
+        
+    }
+    #lista{
+        display:flex;
+    }
+    .container img{
+        
+        width:100px;
+        height: 130px;
+    
+        
+    }
