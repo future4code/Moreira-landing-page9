@@ -1,0 +1,242 @@
+/* Configurações gerais */
+*{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Configurações da header */
+header{
+    background-color: #FF914D;
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    position: fixed;
+    top: 0;
+}
+
+.icone-texto{
+    display: flex;
+    align-items: center;
+}
+.icone{
+    height: 60px;
+    width: 80px;
+}
+
+#menu-inicial{
+    display: flex;
+    
+}
+#menu-inicial a{
+    padding-right: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+#icone-menu{
+    display: none;
+}
+
+#menu-inicial-mobile{
+    margin-top: 60px;
+    display: none;
+}
+#menu-inicial-mobile a{
+    padding-right: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-device-width : 600px){
+    .apagado{
+        display: none;
+    }
+}
+
+#abrir-conta{
+    background-color: #ffbd59;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 0 15px;
+    color: white;
+}
+#abrir-conta:hover{
+    opacity: .5;
+}
+#abrir-conta:active{
+    opacity: .5;
+}
+
+/* Configurações da main */
+
+/* Seção Quem Somos */
+#sobre-f4bank{
+    background-color: #FF914D;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    border-top: 1px solid lightyellow;
+}
+#sobre-f4bank img{
+    padding: 15px;
+    height: 400px;
+    min-width: 250px;
+}
+.titulo2{
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+#sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+}
+#sobre img{
+    height: 200px;
+}
+
+/* Seção Nossos Produtos */
+.padrao-produto{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#prdutos{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+#produtos img{
+    padding: 15px;
+    height: 400px;
+    min-width: 250px;
+}
+
+.titulo-descricao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+}
+.titulo{
+    color: #FF914D;
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 15px 0;
+}
+.descricao{
+    color: #ffbd59;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+#emprestimos{
+    background-image: url("./imagens/pessoas-sorrindo2.png");
+    height: 550px;
+    align-self: flex-end;
+}
+
+/* Seção Perguntas Frequentes */
+#perguntas{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+#perguntas p{
+    font-size: x-large;
+}
+
+#perguntas img:hover{
+    opacity: .5;
+}
+#perguntas img:active{
+    opacity: .5;
+}
+#lista-de-duvidas{
+    max-width: 600px;
+}
+
+/* Configurações do Footer */
+ul h3{color: white;
+    font-size: 20x;
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+ul{
+    padding: 15px;
+}
+    
+li  {
+    list-style-type: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li a:hover{
+    color: #ff914d
+
+}
+li a:active{
+    color: #ff914d
+
+}
+li a {
+    
+    color: white;
+    text-decoration: none;
+    
+    
+}
+
+footer{
+    width: 100vw;
+    background-color:#111;
+    display: flex;
+    justify-content: space-between;
+        flex-wrap: wrap;
+    
+    
+}
+.container {
+    padding-right: 200px;
+    display: flex;
+    padding-bottom: 20px;
+    
+}
+.container img:hover{
+    opacity: .5;
+    
+}
+.container img:active{
+    opacity: .5;
+    
+}
+#lista{
+    display:flex;
+}
+.container img{
+    
+    width:100px;
+    height: 130px;
+
+    
+}
